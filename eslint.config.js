@@ -86,13 +86,12 @@ module.exports = {
     'unicorn/consistent-function-scoping': OFF,
 
     '@typescript-eslint/no-useless-constructor': ERROR,
-    '@typescript-eslint/no-empty-function': WARN,
+    '@typescript-eslint/no-empty-function': OFF,
     '@typescript-eslint/no-var-requires': OFF,
     '@typescript-eslint/explicit-function-return-type': OFF,
     '@typescript-eslint/explicit-module-boundary-types': OFF,
     '@typescript-eslint/no-explicit-any': OFF,
     '@typescript-eslint/no-unused-vars': WARN,
-    
 
     'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx', 'ts', '.jsx', 'js'] }],
     'react/jsx-indent-props': [ERROR, 2],
@@ -122,6 +121,6 @@ module.exports = {
     'no-unused-vars': OFF,
     'linebreak-style': OFF,
     'import/order': OFF,
-    'react/jsx-no-bind': OFF,
+    'react/jsx-no-bind': OFF
   }
 }

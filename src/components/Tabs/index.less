@@ -1,0 +1,51 @@
+.tabs-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+
+  .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+
+    & + .item {
+      margin-left: 10px;
+    }
+  }
+
+  .tab-line {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+
+    &.animated {
+      transition: all 0.3s;
+    }
+  }
+}
+
+.tabs-content {
+  height: 100%;
+  margin-top: 10px;
+  overflow: scroll;
+}
+
+.active {
+  color: #2b6bff;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.c-9 {
+  color: #999;
+}
