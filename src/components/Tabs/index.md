@@ -23,5 +23,3 @@ export default () => {
   return <Tabs options={opts} value={value} onChange={(val: any) => setValue(val)} />
 }
 ```
-
-More skills for writing demo: https://d.umijs.org/guide/demo-principle
