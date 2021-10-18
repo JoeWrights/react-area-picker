@@ -1,0 +1,51 @@
+{
+  "Import useZgRequest": {
+    "prefix": ["importUseZgReq"],
+    "body": ["import { useZgRequest } from '@/services'"],
+    "description": "导入请求 hook 包",
+    "scope": "typescript,typescriptreact"
+  },
+  "useZgRequest Get": {
+    "prefix": ["useGet", "useZgReq"],
+    "body": [
+      "const { data } = useZgRequest(",
+      "  '$1',",
+      "  () => ({",
+      "    payload: {",
+      "      $2",
+      "    }",
+      "  }),",
+      "  {",
+      "    formatResult(res) {",
+      "      ${3:return res}",
+      "    }",
+      "  }",
+      ")",
+      "$0"
+    ],
+    "description": "请求 hook, get 方式",
+    "scope": "typescript,typescriptreact"
+  },
+  "useZgRequest Post": {
+    "prefix": ["usePost", "useZgReq"],
+    "body": [
+      "const { data } = useZgRequest(",
+      "  '$1',",
+      "  () => ({",
+      "    payload: {",
+      "      $2",
+      "    },",
+      "    method: 'post'",
+      "  }),",
+      "  {",
+      "    formatResult(res) {",
+      "      ${3:return res}",
+      "    }",
+      "  }",
+      ")",
+      "$0"
+    ],
+    "description": "请求 hook, post 方式",
+    "scope": "typescript,typescriptreact"
+  }
+}

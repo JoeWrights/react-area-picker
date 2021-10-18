@@ -1,0 +1,48 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "stylelint.enable": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // 使用本地安装的 TypeScript 替代 VSCode 内置的来提供智能提示
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  // 指定哪些文件不参与搜索
+  "search.exclude": {
+    "**/node_modules": true,
+    "dist": true,
+    "package-lock.json": true
+  },
+  // 指定哪些文件不被 VSCode 监听，预防启动 VSCode 时扫描的文件太多，导致 CPU 占用过高
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/dist/**": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.detectIndentation": false,
+  // "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "eslint.debug": true
+}

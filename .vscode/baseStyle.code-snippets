@@ -1,0 +1,3368 @@
+{
+  ".bgc_primary{background-color:@c_primary;}": {
+    "prefix": [
+      "bgc_primary"
+    ],
+    "body": [
+      "bgc_primary"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_primary_hover{background-color:@c_primary;}": {
+    "prefix": [
+      "bgc_primary_hover"
+    ],
+    "body": [
+      "bgc_primary_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_white{background-color:#fff;}": {
+    "prefix": [
+      "bgc_white"
+    ],
+    "body": [
+      "bgc_white"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_white_hover{background-color:#fff;}": {
+    "prefix": [
+      "bgc_white_hover"
+    ],
+    "body": [
+      "bgc_white_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_success{background-color:@c_success;}": {
+    "prefix": [
+      "bgc_success"
+    ],
+    "body": [
+      "bgc_success"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_success_hover{background-color:@c_success;}": {
+    "prefix": [
+      "bgc_success_hover"
+    ],
+    "body": [
+      "bgc_success_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_success_l{background-color:@c_success_l;}": {
+    "prefix": [
+      "bgc_success_l"
+    ],
+    "body": [
+      "bgc_success_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_success_l_hover{background-color:@c_success_l;}": {
+    "prefix": [
+      "bgc_success_l_hover"
+    ],
+    "body": [
+      "bgc_success_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_success_ll{background-color:@c_success_ll;}": {
+    "prefix": [
+      "bgc_success_ll"
+    ],
+    "body": [
+      "bgc_success_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_success_ll_hover{background-color:@c_success_ll;}": {
+    "prefix": [
+      "bgc_success_ll_hover"
+    ],
+    "body": [
+      "bgc_success_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_info{background-color:@c_info;}": {
+    "prefix": [
+      "bgc_info"
+    ],
+    "body": [
+      "bgc_info"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_info_hover{background-color:@c_info;}": {
+    "prefix": [
+      "bgc_info_hover"
+    ],
+    "body": [
+      "bgc_info_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_info_l{background-color:@c_info_l;}": {
+    "prefix": [
+      "bgc_info_l"
+    ],
+    "body": [
+      "bgc_info_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_info_l_hover{background-color:@c_info_l;}": {
+    "prefix": [
+      "bgc_info_l_hover"
+    ],
+    "body": [
+      "bgc_info_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_info_ll{background-color:@c_info_ll;}": {
+    "prefix": [
+      "bgc_info_ll"
+    ],
+    "body": [
+      "bgc_info_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_info_ll_hover{background-color:@c_info_ll;}": {
+    "prefix": [
+      "bgc_info_ll_hover"
+    ],
+    "body": [
+      "bgc_info_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_error{background-color:@c_error;}": {
+    "prefix": [
+      "bgc_error"
+    ],
+    "body": [
+      "bgc_error"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_error_hover{background-color:@c_error;}": {
+    "prefix": [
+      "bgc_error_hover"
+    ],
+    "body": [
+      "bgc_error_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_error_l{background-color:@c_error_l;}": {
+    "prefix": [
+      "bgc_error_l"
+    ],
+    "body": [
+      "bgc_error_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_error_l_hover{background-color:@c_error_l;}": {
+    "prefix": [
+      "bgc_error_l_hover"
+    ],
+    "body": [
+      "bgc_error_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_error_ll{background-color:@c_error_ll;}": {
+    "prefix": [
+      "bgc_error_ll"
+    ],
+    "body": [
+      "bgc_error_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_error_ll_hover{background-color:@c_error_ll;}": {
+    "prefix": [
+      "bgc_error_ll_hover"
+    ],
+    "body": [
+      "bgc_error_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning{background-color:@c_warning;}": {
+    "prefix": [
+      "bgc_warning"
+    ],
+    "body": [
+      "bgc_warning"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_hover{background-color:@c_warning;}": {
+    "prefix": [
+      "bgc_warning_hover"
+    ],
+    "body": [
+      "bgc_warning_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_l{background-color:@c_warning_l;}": {
+    "prefix": [
+      "bgc_warning_l"
+    ],
+    "body": [
+      "bgc_warning_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_l_hover{background-color:@c_warning_l;}": {
+    "prefix": [
+      "bgc_warning_l_hover"
+    ],
+    "body": [
+      "bgc_warning_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_ll{background-color:@c_warning_ll;}": {
+    "prefix": [
+      "bgc_warning_ll"
+    ],
+    "body": [
+      "bgc_warning_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_ll_hover{background-color:@c_warning_ll;}": {
+    "prefix": [
+      "bgc_warning_ll_hover"
+    ],
+    "body": [
+      "bgc_warning_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_lll{background-color:@c_warning_lll;}": {
+    "prefix": [
+      "bgc_warning_lll"
+    ],
+    "body": [
+      "bgc_warning_lll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_warning_lll_hover{background-color:@c_warning_lll;}": {
+    "prefix": [
+      "bgc_warning_lll_hover"
+    ],
+    "body": [
+      "bgc_warning_lll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_1{background-color:#3a3f4d;}": {
+    "prefix": [
+      "bgc_level_1"
+    ],
+    "body": [
+      "bgc_level_1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_1_hover{background-color:#3a3f4d;}": {
+    "prefix": [
+      "bgc_level_1_hover"
+    ],
+    "body": [
+      "bgc_level_1_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_2{background-color:#a8afbf;}": {
+    "prefix": [
+      "bgc_level_2"
+    ],
+    "body": [
+      "bgc_level_2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_2_hover{background-color:#a8afbf;}": {
+    "prefix": [
+      "bgc_level_2_hover"
+    ],
+    "body": [
+      "bgc_level_2_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_3{background-color:#dae1f2;}": {
+    "prefix": [
+      "bgc_level_3"
+    ],
+    "body": [
+      "bgc_level_3"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_3_hover{background-color:#dae1f2;}": {
+    "prefix": [
+      "bgc_level_3_hover"
+    ],
+    "body": [
+      "bgc_level_3_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_4{background-color:#edf2ff;}": {
+    "prefix": [
+      "bgc_level_4"
+    ],
+    "body": [
+      "bgc_level_4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_4_hover{background-color:#edf2ff;}": {
+    "prefix": [
+      "bgc_level_4_hover"
+    ],
+    "body": [
+      "bgc_level_4_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_5{background-color:#f2f4fa;}": {
+    "prefix": [
+      "bgc_level_5"
+    ],
+    "body": [
+      "bgc_level_5"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_5_hover{background-color:#f2f4fa;}": {
+    "prefix": [
+      "bgc_level_5_hover"
+    ],
+    "body": [
+      "bgc_level_5_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_6{background-color:#f8fafd;}": {
+    "prefix": [
+      "bgc_level_6"
+    ],
+    "body": [
+      "bgc_level_6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bgc_level_6_hover{background-color:#f8fafd;}": {
+    "prefix": [
+      "bgc_level_6_hover"
+    ],
+    "body": [
+      "bgc_level_6_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_primary{border-color:@c_primary;}": {
+    "prefix": [
+      "bc_primary"
+    ],
+    "body": [
+      "bc_primary"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_primary_hover{border-color:@c_primary;}": {
+    "prefix": [
+      "bc_primary_hover"
+    ],
+    "body": [
+      "bc_primary_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success{border-color:@c_success;}": {
+    "prefix": [
+      "bc_success"
+    ],
+    "body": [
+      "bc_success"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success_hover{border-color:@c_success;}": {
+    "prefix": [
+      "bc_success_hover"
+    ],
+    "body": [
+      "bc_success_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success_l{border-color:@c_success_l;}": {
+    "prefix": [
+      "bc_success_l"
+    ],
+    "body": [
+      "bc_success_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success_l_hover{border-color:@c_success_l;}": {
+    "prefix": [
+      "bc_success_l_hover"
+    ],
+    "body": [
+      "bc_success_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success_ll{border-color:@c_success_ll;}": {
+    "prefix": [
+      "bc_success_ll"
+    ],
+    "body": [
+      "bc_success_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_success_ll_hover{border-color:@c_success_ll;}": {
+    "prefix": [
+      "bc_success_ll_hover"
+    ],
+    "body": [
+      "bc_success_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info{border-color:@c_info;}": {
+    "prefix": [
+      "bc_info"
+    ],
+    "body": [
+      "bc_info"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info_hover{border-color:@c_info;}": {
+    "prefix": [
+      "bc_info_hover"
+    ],
+    "body": [
+      "bc_info_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info_l{border-color:@c_info_l;}": {
+    "prefix": [
+      "bc_info_l"
+    ],
+    "body": [
+      "bc_info_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info_l_hover{border-color:@c_info_l;}": {
+    "prefix": [
+      "bc_info_l_hover"
+    ],
+    "body": [
+      "bc_info_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info_ll{border-color:@c_info_ll;}": {
+    "prefix": [
+      "bc_info_ll"
+    ],
+    "body": [
+      "bc_info_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_info_ll_hover{border-color:@c_info_ll;}": {
+    "prefix": [
+      "bc_info_ll_hover"
+    ],
+    "body": [
+      "bc_info_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error{border-color:@c_error;}": {
+    "prefix": [
+      "bc_error"
+    ],
+    "body": [
+      "bc_error"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error_hover{border-color:@c_error;}": {
+    "prefix": [
+      "bc_error_hover"
+    ],
+    "body": [
+      "bc_error_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error_l{border-color:@c_error_l;}": {
+    "prefix": [
+      "bc_error_l"
+    ],
+    "body": [
+      "bc_error_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error_l_hover{border-color:@c_error_l;}": {
+    "prefix": [
+      "bc_error_l_hover"
+    ],
+    "body": [
+      "bc_error_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error_ll{border-color:@c_error_ll;}": {
+    "prefix": [
+      "bc_error_ll"
+    ],
+    "body": [
+      "bc_error_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_error_ll_hover{border-color:@c_error_ll;}": {
+    "prefix": [
+      "bc_error_ll_hover"
+    ],
+    "body": [
+      "bc_error_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning{border-color:@c_warning;}": {
+    "prefix": [
+      "bc_warning"
+    ],
+    "body": [
+      "bc_warning"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_hover{border-color:@c_warning;}": {
+    "prefix": [
+      "bc_warning_hover"
+    ],
+    "body": [
+      "bc_warning_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_l{border-color:@c_warning_l;}": {
+    "prefix": [
+      "bc_warning_l"
+    ],
+    "body": [
+      "bc_warning_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_l_hover{border-color:@c_warning_l;}": {
+    "prefix": [
+      "bc_warning_l_hover"
+    ],
+    "body": [
+      "bc_warning_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_ll{border-color:@c_warning_ll;}": {
+    "prefix": [
+      "bc_warning_ll"
+    ],
+    "body": [
+      "bc_warning_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_ll_hover{border-color:@c_warning_ll;}": {
+    "prefix": [
+      "bc_warning_ll_hover"
+    ],
+    "body": [
+      "bc_warning_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_lll{border-color:@c_warning_lll;}": {
+    "prefix": [
+      "bc_warning_lll"
+    ],
+    "body": [
+      "bc_warning_lll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_warning_lll_hover{border-color:@c_warning_lll;}": {
+    "prefix": [
+      "bc_warning_lll_hover"
+    ],
+    "body": [
+      "bc_warning_lll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_1{border-color:#d5dae5;}": {
+    "prefix": [
+      "bc_level_1"
+    ],
+    "body": [
+      "bc_level_1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_1_hover{border-color:#d5dae5;}": {
+    "prefix": [
+      "bc_level_1_hover"
+    ],
+    "body": [
+      "bc_level_1_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_2{border-color:#e6eaf2;}": {
+    "prefix": [
+      "bc_level_2"
+    ],
+    "body": [
+      "bc_level_2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".bc_level_2_hover{border-color:#e6eaf2;}": {
+    "prefix": [
+      "bc_level_2_hover"
+    ],
+    "body": [
+      "bc_level_2_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_primary{color:@c_primary;}": {
+    "prefix": [
+      "c_primary"
+    ],
+    "body": [
+      "c_primary"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_primary_hover{color:@c_primary;}": {
+    "prefix": [
+      "c_primary_hover"
+    ],
+    "body": [
+      "c_primary_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success{color:@c_success;}": {
+    "prefix": [
+      "c_success"
+    ],
+    "body": [
+      "c_success"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success_hover{color:@c_success;}": {
+    "prefix": [
+      "c_success_hover"
+    ],
+    "body": [
+      "c_success_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success_l{color:@c_success_l;}": {
+    "prefix": [
+      "c_success_l"
+    ],
+    "body": [
+      "c_success_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success_l_hover{color:@c_success_l;}": {
+    "prefix": [
+      "c_success_l_hover"
+    ],
+    "body": [
+      "c_success_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success_ll{color:@c_success_ll;}": {
+    "prefix": [
+      "c_success_ll"
+    ],
+    "body": [
+      "c_success_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_success_ll_hover{color:@c_success_ll;}": {
+    "prefix": [
+      "c_success_ll_hover"
+    ],
+    "body": [
+      "c_success_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info{color:@c_info;}": {
+    "prefix": [
+      "c_info"
+    ],
+    "body": [
+      "c_info"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info_hover{color:@c_info;}": {
+    "prefix": [
+      "c_info_hover"
+    ],
+    "body": [
+      "c_info_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info_l{color:@c_info_l;}": {
+    "prefix": [
+      "c_info_l"
+    ],
+    "body": [
+      "c_info_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info_l_hover{color:@c_info_l;}": {
+    "prefix": [
+      "c_info_l_hover"
+    ],
+    "body": [
+      "c_info_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info_ll{color:@c_info_ll;}": {
+    "prefix": [
+      "c_info_ll"
+    ],
+    "body": [
+      "c_info_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_info_ll_hover{color:@c_info_ll;}": {
+    "prefix": [
+      "c_info_ll_hover"
+    ],
+    "body": [
+      "c_info_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error{color:@c_error;}": {
+    "prefix": [
+      "c_error"
+    ],
+    "body": [
+      "c_error"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error_hover{color:@c_error;}": {
+    "prefix": [
+      "c_error_hover"
+    ],
+    "body": [
+      "c_error_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error_l{color:@c_error_l;}": {
+    "prefix": [
+      "c_error_l"
+    ],
+    "body": [
+      "c_error_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error_l_hover{color:@c_error_l;}": {
+    "prefix": [
+      "c_error_l_hover"
+    ],
+    "body": [
+      "c_error_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error_ll{color:@c_error_ll;}": {
+    "prefix": [
+      "c_error_ll"
+    ],
+    "body": [
+      "c_error_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_error_ll_hover{color:@c_error_ll;}": {
+    "prefix": [
+      "c_error_ll_hover"
+    ],
+    "body": [
+      "c_error_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning{color:@c_warning;}": {
+    "prefix": [
+      "c_warning"
+    ],
+    "body": [
+      "c_warning"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_hover{color:@c_warning;}": {
+    "prefix": [
+      "c_warning_hover"
+    ],
+    "body": [
+      "c_warning_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_l{color:@c_warning_l;}": {
+    "prefix": [
+      "c_warning_l"
+    ],
+    "body": [
+      "c_warning_l"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_l_hover{color:@c_warning_l;}": {
+    "prefix": [
+      "c_warning_l_hover"
+    ],
+    "body": [
+      "c_warning_l_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_ll{color:@c_warning_ll;}": {
+    "prefix": [
+      "c_warning_ll"
+    ],
+    "body": [
+      "c_warning_ll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_ll_hover{color:@c_warning_ll;}": {
+    "prefix": [
+      "c_warning_ll_hover"
+    ],
+    "body": [
+      "c_warning_ll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_lll{color:@c_warning_lll;}": {
+    "prefix": [
+      "c_warning_lll"
+    ],
+    "body": [
+      "c_warning_lll"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_warning_lll_hover{color:@c_warning_lll;}": {
+    "prefix": [
+      "c_warning_lll_hover"
+    ],
+    "body": [
+      "c_warning_lll_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_white{color:#fff;}": {
+    "prefix": [
+      "c_white"
+    ],
+    "body": [
+      "c_white"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_white_hover{color:#fff;}": {
+    "prefix": [
+      "c_white_hover"
+    ],
+    "body": [
+      "c_white_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_1{color:@c_font_1;}": {
+    "prefix": [
+      "c_level_1"
+    ],
+    "body": [
+      "c_level_1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_1_hover{color:@c_font_1;}": {
+    "prefix": [
+      "c_level_1_hover"
+    ],
+    "body": [
+      "c_level_1_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_2{color:@c_font_2;}": {
+    "prefix": [
+      "c_level_2"
+    ],
+    "body": [
+      "c_level_2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_2_hover{color:@c_font_2;}": {
+    "prefix": [
+      "c_level_2_hover"
+    ],
+    "body": [
+      "c_level_2_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_3{color:@c_font_3;}": {
+    "prefix": [
+      "c_level_3"
+    ],
+    "body": [
+      "c_level_3"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_3_hover{color:@c_font_3;}": {
+    "prefix": [
+      "c_level_3_hover"
+    ],
+    "body": [
+      "c_level_3_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_4{color:@c_font_4;}": {
+    "prefix": [
+      "c_level_4"
+    ],
+    "body": [
+      "c_level_4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".c_level_4_hover{color:@c_font_4;}": {
+    "prefix": [
+      "c_level_4_hover"
+    ],
+    "body": [
+      "c_level_4_hover"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".dn{display:none;}": {
+    "prefix": [
+      "dn"
+    ],
+    "body": [
+      "dn"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".db{display:block;}": {
+    "prefix": [
+      "db"
+    ],
+    "body": [
+      "db"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".di{display:inline;}": {
+    "prefix": [
+      "di"
+    ],
+    "body": [
+      "di"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".dib{display:inline-block;}": {
+    "prefix": [
+      "dib"
+    ],
+    "body": [
+      "dib"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".dif{display:inline-flex;}": {
+    "prefix": [
+      "dif"
+    ],
+    "body": [
+      "dif"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx{display:flex;}": {
+    "prefix": [
+      "fx"
+    ],
+    "body": [
+      "fx"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-flex1{flex:1;}": {
+    "prefix": [
+      "fx-flex1"
+    ],
+    "body": [
+      "fx-flex1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-row{.fx;flex-direction:row;}": {
+    "prefix": [
+      "fx-row"
+    ],
+    "body": [
+      "fx-row"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-row-reverse{.fx;flex-direction:row-reverse;}": {
+    "prefix": [
+      "fx-row-reverse"
+    ],
+    "body": [
+      "fx-row-reverse"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-col{.fx;flex-direction:column;}": {
+    "prefix": [
+      "fx-col"
+    ],
+    "body": [
+      "fx-col"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-col-reverse{.fx;flex-direction:column-reverse;}": {
+    "prefix": [
+      "fx-col-reverse"
+    ],
+    "body": [
+      "fx-col-reverse"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-wrap{.fx;flex-wrap:wrap;}": {
+    "prefix": [
+      "fx-wrap"
+    ],
+    "body": [
+      "fx-wrap"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-nowrap{.fx;flex-wrap:nowrap;}": {
+    "prefix": [
+      "fx-nowrap"
+    ],
+    "body": [
+      "fx-nowrap"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-wrap-reverse{.fx;flex-wrap:wrap-reverse;}": {
+    "prefix": [
+      "fx-wrap-reverse"
+    ],
+    "body": [
+      "fx-wrap-reverse"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-center{.fx;justify-content:center;}": {
+    "prefix": [
+      "fx-h-center"
+    ],
+    "body": [
+      "fx-h-center"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-start{justify-content:flex-start;}": {
+    "prefix": [
+      "fx-h-start"
+    ],
+    "body": [
+      "fx-h-start"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-end{.fx;justify-content:flex-end;}": {
+    "prefix": [
+      "fx-h-end"
+    ],
+    "body": [
+      "fx-h-end"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-between{.fx;justify-content:space-between;}": {
+    "prefix": [
+      "fx-h-between"
+    ],
+    "body": [
+      "fx-h-between"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-around{.fx;justify-content:space-around;}": {
+    "prefix": [
+      "fx-h-around"
+    ],
+    "body": [
+      "fx-h-around"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-evenly{.fx;justify-content:space-evenly;}": {
+    "prefix": [
+      "fx-h-evenly"
+    ],
+    "body": [
+      "fx-h-evenly"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-h-initial{.fx;justify-content:initial;}": {
+    "prefix": [
+      "fx-h-initial"
+    ],
+    "body": [
+      "fx-h-initial"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-center{.fx;align-items:center;}": {
+    "prefix": [
+      "fx-v-center"
+    ],
+    "body": [
+      "fx-v-center"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-start{.fx;align-items:flex-start;}": {
+    "prefix": [
+      "fx-v-start"
+    ],
+    "body": [
+      "fx-v-start"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-end{.fx;align-items:flex-end;}": {
+    "prefix": [
+      "fx-v-end"
+    ],
+    "body": [
+      "fx-v-end"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-stretch{.fx;align-items:stretch;}": {
+    "prefix": [
+      "fx-v-stretch"
+    ],
+    "body": [
+      "fx-v-stretch"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-baseline{.fx;align-items:baseline;}": {
+    "prefix": [
+      "fx-v-baseline"
+    ],
+    "body": [
+      "fx-v-baseline"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-initial{.fx;align-items:initial;}": {
+    "prefix": [
+      "fx-v-initial"
+    ],
+    "body": [
+      "fx-v-initial"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-center{.fx;align-items:center;justify-content:center;}": {
+    "prefix": [
+      "fx-center"
+    ],
+    "body": [
+      "fx-center"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fx-v-center-h-between{.fx;align-items:center;justify-content:space-between;}": {
+    "prefix": [
+      "fx-v-center-h-between"
+    ],
+    "body": [
+      "fx-v-center-h-between"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fl{float:left;}": {
+    "prefix": [
+      "fl"
+    ],
+    "body": [
+      "fl"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fr{float:right;}": {
+    "prefix": [
+      "fr"
+    ],
+    "body": [
+      "fr"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".clearfix{display:inline-table;*zoom:1;::after}": {
+    "prefix": [
+      "clearfix"
+    ],
+    "body": [
+      "clearfix"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f12{font-size:12px;}": {
+    "prefix": [
+      "f12"
+    ],
+    "body": [
+      "f12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f14{font-size:14px;}": {
+    "prefix": [
+      "f14"
+    ],
+    "body": [
+      "f14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f16{font-size:16px;}": {
+    "prefix": [
+      "f16"
+    ],
+    "body": [
+      "f16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f18{font-size:18px;}": {
+    "prefix": [
+      "f18"
+    ],
+    "body": [
+      "f18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f20{font-size:20px;}": {
+    "prefix": [
+      "f20"
+    ],
+    "body": [
+      "f20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f22{font-size:22px;}": {
+    "prefix": [
+      "f22"
+    ],
+    "body": [
+      "f22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".f24{font-size:24px;}": {
+    "prefix": [
+      "f24"
+    ],
+    "body": [
+      "f24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw400{font-weight:400;}": {
+    "prefix": [
+      "fw400"
+    ],
+    "body": [
+      "fw400"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw500{font-weight:500;}": {
+    "prefix": [
+      "fw500"
+    ],
+    "body": [
+      "fw500"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw600{font-weight:600;}": {
+    "prefix": [
+      "fw600"
+    ],
+    "body": [
+      "fw600"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw700{font-weight:700;}": {
+    "prefix": [
+      "fw700"
+    ],
+    "body": [
+      "fw700"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".fw800{font-weight:800;}": {
+    "prefix": [
+      "fw800"
+    ],
+    "body": [
+      "fw800"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".lh1{line-height:1;}": {
+    "prefix": [
+      "lh1"
+    ],
+    "body": [
+      "lh1"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".lh1d5{line-height:1.5;}": {
+    "prefix": [
+      "lh1d5"
+    ],
+    "body": [
+      "lh1d5"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".lh2{line-height:2;}": {
+    "prefix": [
+      "lh2"
+    ],
+    "body": [
+      "lh2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pointer{cursor:pointer;}": {
+    "prefix": [
+      "pointer"
+    ],
+    "body": [
+      "pointer"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".not-allowed{cursor:not-allowed;}": {
+    "prefix": [
+      "not-allowed"
+    ],
+    "body": [
+      "not-allowed"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".H{color:@c_primary;}": {
+    "prefix": [
+      "H"
+    ],
+    "body": [
+      "H"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pa{position:absolute;}": {
+    "prefix": [
+      "pa"
+    ],
+    "body": [
+      "pa"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr{position:relative;}": {
+    "prefix": [
+      "pr"
+    ],
+    "body": [
+      "pr"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pf{position:fixed;}": {
+    "prefix": [
+      "pf"
+    ],
+    "body": [
+      "pf"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ps{position:static;}": {
+    "prefix": [
+      "ps"
+    ],
+    "body": [
+      "ps"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".sticky{position:sticky;}": {
+    "prefix": [
+      "sticky"
+    ],
+    "body": [
+      "sticky"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".tac{text-align:center;}": {
+    "prefix": [
+      "tac"
+    ],
+    "body": [
+      "tac"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".tal{text-align:left;}": {
+    "prefix": [
+      "tal"
+    ],
+    "body": [
+      "tal"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".tar{text-align:right;}": {
+    "prefix": [
+      "tar"
+    ],
+    "body": [
+      "tar"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".taj{text-align:justify;}": {
+    "prefix": [
+      "taj"
+    ],
+    "body": [
+      "taj"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m2{margin:2px;}": {
+    "prefix": [
+      "m2"
+    ],
+    "body": [
+      "m2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml2{margin-left:2px;}": {
+    "prefix": [
+      "ml2"
+    ],
+    "body": [
+      "ml2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt2{margin-top:2px;}": {
+    "prefix": [
+      "mt2"
+    ],
+    "body": [
+      "mt2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr2{margin-right:2px;}": {
+    "prefix": [
+      "mr2"
+    ],
+    "body": [
+      "mr2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb2{margin-bottom:2px;}": {
+    "prefix": [
+      "mb2"
+    ],
+    "body": [
+      "mb2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m4{margin:4px;}": {
+    "prefix": [
+      "m4"
+    ],
+    "body": [
+      "m4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml4{margin-left:4px;}": {
+    "prefix": [
+      "ml4"
+    ],
+    "body": [
+      "ml4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt4{margin-top:4px;}": {
+    "prefix": [
+      "mt4"
+    ],
+    "body": [
+      "mt4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr4{margin-right:4px;}": {
+    "prefix": [
+      "mr4"
+    ],
+    "body": [
+      "mr4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb4{margin-bottom:4px;}": {
+    "prefix": [
+      "mb4"
+    ],
+    "body": [
+      "mb4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m6{margin:6px;}": {
+    "prefix": [
+      "m6"
+    ],
+    "body": [
+      "m6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml6{margin-left:6px;}": {
+    "prefix": [
+      "ml6"
+    ],
+    "body": [
+      "ml6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt6{margin-top:6px;}": {
+    "prefix": [
+      "mt6"
+    ],
+    "body": [
+      "mt6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr6{margin-right:6px;}": {
+    "prefix": [
+      "mr6"
+    ],
+    "body": [
+      "mr6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb6{margin-bottom:6px;}": {
+    "prefix": [
+      "mb6"
+    ],
+    "body": [
+      "mb6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m8{margin:8px;}": {
+    "prefix": [
+      "m8"
+    ],
+    "body": [
+      "m8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml8{margin-left:8px;}": {
+    "prefix": [
+      "ml8"
+    ],
+    "body": [
+      "ml8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt8{margin-top:8px;}": {
+    "prefix": [
+      "mt8"
+    ],
+    "body": [
+      "mt8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr8{margin-right:8px;}": {
+    "prefix": [
+      "mr8"
+    ],
+    "body": [
+      "mr8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb8{margin-bottom:8px;}": {
+    "prefix": [
+      "mb8"
+    ],
+    "body": [
+      "mb8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m10{margin:10px;}": {
+    "prefix": [
+      "m10"
+    ],
+    "body": [
+      "m10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml10{margin-left:10px;}": {
+    "prefix": [
+      "ml10"
+    ],
+    "body": [
+      "ml10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt10{margin-top:10px;}": {
+    "prefix": [
+      "mt10"
+    ],
+    "body": [
+      "mt10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr10{margin-right:10px;}": {
+    "prefix": [
+      "mr10"
+    ],
+    "body": [
+      "mr10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb10{margin-bottom:10px;}": {
+    "prefix": [
+      "mb10"
+    ],
+    "body": [
+      "mb10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m12{margin:12px;}": {
+    "prefix": [
+      "m12"
+    ],
+    "body": [
+      "m12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml12{margin-left:12px;}": {
+    "prefix": [
+      "ml12"
+    ],
+    "body": [
+      "ml12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt12{margin-top:12px;}": {
+    "prefix": [
+      "mt12"
+    ],
+    "body": [
+      "mt12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr12{margin-right:12px;}": {
+    "prefix": [
+      "mr12"
+    ],
+    "body": [
+      "mr12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb12{margin-bottom:12px;}": {
+    "prefix": [
+      "mb12"
+    ],
+    "body": [
+      "mb12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m14{margin:14px;}": {
+    "prefix": [
+      "m14"
+    ],
+    "body": [
+      "m14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml14{margin-left:14px;}": {
+    "prefix": [
+      "ml14"
+    ],
+    "body": [
+      "ml14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt14{margin-top:14px;}": {
+    "prefix": [
+      "mt14"
+    ],
+    "body": [
+      "mt14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr14{margin-right:14px;}": {
+    "prefix": [
+      "mr14"
+    ],
+    "body": [
+      "mr14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb14{margin-bottom:14px;}": {
+    "prefix": [
+      "mb14"
+    ],
+    "body": [
+      "mb14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m16{margin:16px;}": {
+    "prefix": [
+      "m16"
+    ],
+    "body": [
+      "m16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml16{margin-left:16px;}": {
+    "prefix": [
+      "ml16"
+    ],
+    "body": [
+      "ml16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt16{margin-top:16px;}": {
+    "prefix": [
+      "mt16"
+    ],
+    "body": [
+      "mt16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr16{margin-right:16px;}": {
+    "prefix": [
+      "mr16"
+    ],
+    "body": [
+      "mr16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb16{margin-bottom:16px;}": {
+    "prefix": [
+      "mb16"
+    ],
+    "body": [
+      "mb16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m18{margin:18px;}": {
+    "prefix": [
+      "m18"
+    ],
+    "body": [
+      "m18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml18{margin-left:18px;}": {
+    "prefix": [
+      "ml18"
+    ],
+    "body": [
+      "ml18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt18{margin-top:18px;}": {
+    "prefix": [
+      "mt18"
+    ],
+    "body": [
+      "mt18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr18{margin-right:18px;}": {
+    "prefix": [
+      "mr18"
+    ],
+    "body": [
+      "mr18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb18{margin-bottom:18px;}": {
+    "prefix": [
+      "mb18"
+    ],
+    "body": [
+      "mb18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m20{margin:20px;}": {
+    "prefix": [
+      "m20"
+    ],
+    "body": [
+      "m20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml20{margin-left:20px;}": {
+    "prefix": [
+      "ml20"
+    ],
+    "body": [
+      "ml20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt20{margin-top:20px;}": {
+    "prefix": [
+      "mt20"
+    ],
+    "body": [
+      "mt20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr20{margin-right:20px;}": {
+    "prefix": [
+      "mr20"
+    ],
+    "body": [
+      "mr20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb20{margin-bottom:20px;}": {
+    "prefix": [
+      "mb20"
+    ],
+    "body": [
+      "mb20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m22{margin:22px;}": {
+    "prefix": [
+      "m22"
+    ],
+    "body": [
+      "m22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml22{margin-left:22px;}": {
+    "prefix": [
+      "ml22"
+    ],
+    "body": [
+      "ml22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt22{margin-top:22px;}": {
+    "prefix": [
+      "mt22"
+    ],
+    "body": [
+      "mt22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr22{margin-right:22px;}": {
+    "prefix": [
+      "mr22"
+    ],
+    "body": [
+      "mr22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb22{margin-bottom:22px;}": {
+    "prefix": [
+      "mb22"
+    ],
+    "body": [
+      "mb22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m24{margin:24px;}": {
+    "prefix": [
+      "m24"
+    ],
+    "body": [
+      "m24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml24{margin-left:24px;}": {
+    "prefix": [
+      "ml24"
+    ],
+    "body": [
+      "ml24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt24{margin-top:24px;}": {
+    "prefix": [
+      "mt24"
+    ],
+    "body": [
+      "mt24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr24{margin-right:24px;}": {
+    "prefix": [
+      "mr24"
+    ],
+    "body": [
+      "mr24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb24{margin-bottom:24px;}": {
+    "prefix": [
+      "mb24"
+    ],
+    "body": [
+      "mb24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m26{margin:26px;}": {
+    "prefix": [
+      "m26"
+    ],
+    "body": [
+      "m26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml26{margin-left:26px;}": {
+    "prefix": [
+      "ml26"
+    ],
+    "body": [
+      "ml26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt26{margin-top:26px;}": {
+    "prefix": [
+      "mt26"
+    ],
+    "body": [
+      "mt26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr26{margin-right:26px;}": {
+    "prefix": [
+      "mr26"
+    ],
+    "body": [
+      "mr26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb26{margin-bottom:26px;}": {
+    "prefix": [
+      "mb26"
+    ],
+    "body": [
+      "mb26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m28{margin:28px;}": {
+    "prefix": [
+      "m28"
+    ],
+    "body": [
+      "m28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml28{margin-left:28px;}": {
+    "prefix": [
+      "ml28"
+    ],
+    "body": [
+      "ml28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt28{margin-top:28px;}": {
+    "prefix": [
+      "mt28"
+    ],
+    "body": [
+      "mt28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr28{margin-right:28px;}": {
+    "prefix": [
+      "mr28"
+    ],
+    "body": [
+      "mr28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb28{margin-bottom:28px;}": {
+    "prefix": [
+      "mb28"
+    ],
+    "body": [
+      "mb28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m30{margin:30px;}": {
+    "prefix": [
+      "m30"
+    ],
+    "body": [
+      "m30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml30{margin-left:30px;}": {
+    "prefix": [
+      "ml30"
+    ],
+    "body": [
+      "ml30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt30{margin-top:30px;}": {
+    "prefix": [
+      "mt30"
+    ],
+    "body": [
+      "mt30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr30{margin-right:30px;}": {
+    "prefix": [
+      "mr30"
+    ],
+    "body": [
+      "mr30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb30{margin-bottom:30px;}": {
+    "prefix": [
+      "mb30"
+    ],
+    "body": [
+      "mb30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m32{margin:32px;}": {
+    "prefix": [
+      "m32"
+    ],
+    "body": [
+      "m32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml32{margin-left:32px;}": {
+    "prefix": [
+      "ml32"
+    ],
+    "body": [
+      "ml32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt32{margin-top:32px;}": {
+    "prefix": [
+      "mt32"
+    ],
+    "body": [
+      "mt32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr32{margin-right:32px;}": {
+    "prefix": [
+      "mr32"
+    ],
+    "body": [
+      "mr32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb32{margin-bottom:32px;}": {
+    "prefix": [
+      "mb32"
+    ],
+    "body": [
+      "mb32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m34{margin:34px;}": {
+    "prefix": [
+      "m34"
+    ],
+    "body": [
+      "m34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml34{margin-left:34px;}": {
+    "prefix": [
+      "ml34"
+    ],
+    "body": [
+      "ml34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt34{margin-top:34px;}": {
+    "prefix": [
+      "mt34"
+    ],
+    "body": [
+      "mt34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr34{margin-right:34px;}": {
+    "prefix": [
+      "mr34"
+    ],
+    "body": [
+      "mr34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb34{margin-bottom:34px;}": {
+    "prefix": [
+      "mb34"
+    ],
+    "body": [
+      "mb34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m36{margin:36px;}": {
+    "prefix": [
+      "m36"
+    ],
+    "body": [
+      "m36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml36{margin-left:36px;}": {
+    "prefix": [
+      "ml36"
+    ],
+    "body": [
+      "ml36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt36{margin-top:36px;}": {
+    "prefix": [
+      "mt36"
+    ],
+    "body": [
+      "mt36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr36{margin-right:36px;}": {
+    "prefix": [
+      "mr36"
+    ],
+    "body": [
+      "mr36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb36{margin-bottom:36px;}": {
+    "prefix": [
+      "mb36"
+    ],
+    "body": [
+      "mb36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m38{margin:38px;}": {
+    "prefix": [
+      "m38"
+    ],
+    "body": [
+      "m38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml38{margin-left:38px;}": {
+    "prefix": [
+      "ml38"
+    ],
+    "body": [
+      "ml38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt38{margin-top:38px;}": {
+    "prefix": [
+      "mt38"
+    ],
+    "body": [
+      "mt38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr38{margin-right:38px;}": {
+    "prefix": [
+      "mr38"
+    ],
+    "body": [
+      "mr38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb38{margin-bottom:38px;}": {
+    "prefix": [
+      "mb38"
+    ],
+    "body": [
+      "mb38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m40{margin:40px;}": {
+    "prefix": [
+      "m40"
+    ],
+    "body": [
+      "m40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".ml40{margin-left:40px;}": {
+    "prefix": [
+      "ml40"
+    ],
+    "body": [
+      "ml40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mt40{margin-top:40px;}": {
+    "prefix": [
+      "mt40"
+    ],
+    "body": [
+      "mt40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mr40{margin-right:40px;}": {
+    "prefix": [
+      "mr40"
+    ],
+    "body": [
+      "mr40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".mb40{margin-bottom:40px;}": {
+    "prefix": [
+      "mb40"
+    ],
+    "body": [
+      "mb40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m-auto{margin:auto;}": {
+    "prefix": [
+      "m-auto"
+    ],
+    "body": [
+      "m-auto"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m-0-auto{margin:0auto;}": {
+    "prefix": [
+      "m-0-auto"
+    ],
+    "body": [
+      "m-0-auto"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".m-auto-0{margin:auto0;}": {
+    "prefix": [
+      "m-auto-0"
+    ],
+    "body": [
+      "m-auto-0"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p2{padding:2px;}": {
+    "prefix": [
+      "p2"
+    ],
+    "body": [
+      "p2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl2{padding-left:2px;}": {
+    "prefix": [
+      "pl2"
+    ],
+    "body": [
+      "pl2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt2{padding-top:2px;}": {
+    "prefix": [
+      "pt2"
+    ],
+    "body": [
+      "pt2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr2{padding-right:2px;}": {
+    "prefix": [
+      "pr2"
+    ],
+    "body": [
+      "pr2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb2{padding-bottom:2px;}": {
+    "prefix": [
+      "pb2"
+    ],
+    "body": [
+      "pb2"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p4{padding:4px;}": {
+    "prefix": [
+      "p4"
+    ],
+    "body": [
+      "p4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl4{padding-left:4px;}": {
+    "prefix": [
+      "pl4"
+    ],
+    "body": [
+      "pl4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt4{padding-top:4px;}": {
+    "prefix": [
+      "pt4"
+    ],
+    "body": [
+      "pt4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr4{padding-right:4px;}": {
+    "prefix": [
+      "pr4"
+    ],
+    "body": [
+      "pr4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb4{padding-bottom:4px;}": {
+    "prefix": [
+      "pb4"
+    ],
+    "body": [
+      "pb4"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p6{padding:6px;}": {
+    "prefix": [
+      "p6"
+    ],
+    "body": [
+      "p6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl6{padding-left:6px;}": {
+    "prefix": [
+      "pl6"
+    ],
+    "body": [
+      "pl6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt6{padding-top:6px;}": {
+    "prefix": [
+      "pt6"
+    ],
+    "body": [
+      "pt6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr6{padding-right:6px;}": {
+    "prefix": [
+      "pr6"
+    ],
+    "body": [
+      "pr6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb6{padding-bottom:6px;}": {
+    "prefix": [
+      "pb6"
+    ],
+    "body": [
+      "pb6"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p8{padding:8px;}": {
+    "prefix": [
+      "p8"
+    ],
+    "body": [
+      "p8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl8{padding-left:8px;}": {
+    "prefix": [
+      "pl8"
+    ],
+    "body": [
+      "pl8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt8{padding-top:8px;}": {
+    "prefix": [
+      "pt8"
+    ],
+    "body": [
+      "pt8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr8{padding-right:8px;}": {
+    "prefix": [
+      "pr8"
+    ],
+    "body": [
+      "pr8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb8{padding-bottom:8px;}": {
+    "prefix": [
+      "pb8"
+    ],
+    "body": [
+      "pb8"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p10{padding:10px;}": {
+    "prefix": [
+      "p10"
+    ],
+    "body": [
+      "p10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl10{padding-left:10px;}": {
+    "prefix": [
+      "pl10"
+    ],
+    "body": [
+      "pl10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt10{padding-top:10px;}": {
+    "prefix": [
+      "pt10"
+    ],
+    "body": [
+      "pt10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr10{padding-right:10px;}": {
+    "prefix": [
+      "pr10"
+    ],
+    "body": [
+      "pr10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb10{padding-bottom:10px;}": {
+    "prefix": [
+      "pb10"
+    ],
+    "body": [
+      "pb10"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p12{padding:12px;}": {
+    "prefix": [
+      "p12"
+    ],
+    "body": [
+      "p12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl12{padding-left:12px;}": {
+    "prefix": [
+      "pl12"
+    ],
+    "body": [
+      "pl12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt12{padding-top:12px;}": {
+    "prefix": [
+      "pt12"
+    ],
+    "body": [
+      "pt12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr12{padding-right:12px;}": {
+    "prefix": [
+      "pr12"
+    ],
+    "body": [
+      "pr12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb12{padding-bottom:12px;}": {
+    "prefix": [
+      "pb12"
+    ],
+    "body": [
+      "pb12"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p14{padding:14px;}": {
+    "prefix": [
+      "p14"
+    ],
+    "body": [
+      "p14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl14{padding-left:14px;}": {
+    "prefix": [
+      "pl14"
+    ],
+    "body": [
+      "pl14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt14{padding-top:14px;}": {
+    "prefix": [
+      "pt14"
+    ],
+    "body": [
+      "pt14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr14{padding-right:14px;}": {
+    "prefix": [
+      "pr14"
+    ],
+    "body": [
+      "pr14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb14{padding-bottom:14px;}": {
+    "prefix": [
+      "pb14"
+    ],
+    "body": [
+      "pb14"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p16{padding:16px;}": {
+    "prefix": [
+      "p16"
+    ],
+    "body": [
+      "p16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl16{padding-left:16px;}": {
+    "prefix": [
+      "pl16"
+    ],
+    "body": [
+      "pl16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt16{padding-top:16px;}": {
+    "prefix": [
+      "pt16"
+    ],
+    "body": [
+      "pt16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr16{padding-right:16px;}": {
+    "prefix": [
+      "pr16"
+    ],
+    "body": [
+      "pr16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb16{padding-bottom:16px;}": {
+    "prefix": [
+      "pb16"
+    ],
+    "body": [
+      "pb16"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p18{padding:18px;}": {
+    "prefix": [
+      "p18"
+    ],
+    "body": [
+      "p18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl18{padding-left:18px;}": {
+    "prefix": [
+      "pl18"
+    ],
+    "body": [
+      "pl18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt18{padding-top:18px;}": {
+    "prefix": [
+      "pt18"
+    ],
+    "body": [
+      "pt18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr18{padding-right:18px;}": {
+    "prefix": [
+      "pr18"
+    ],
+    "body": [
+      "pr18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb18{padding-bottom:18px;}": {
+    "prefix": [
+      "pb18"
+    ],
+    "body": [
+      "pb18"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p20{padding:20px;}": {
+    "prefix": [
+      "p20"
+    ],
+    "body": [
+      "p20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl20{padding-left:20px;}": {
+    "prefix": [
+      "pl20"
+    ],
+    "body": [
+      "pl20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt20{padding-top:20px;}": {
+    "prefix": [
+      "pt20"
+    ],
+    "body": [
+      "pt20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr20{padding-right:20px;}": {
+    "prefix": [
+      "pr20"
+    ],
+    "body": [
+      "pr20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb20{padding-bottom:20px;}": {
+    "prefix": [
+      "pb20"
+    ],
+    "body": [
+      "pb20"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p22{padding:22px;}": {
+    "prefix": [
+      "p22"
+    ],
+    "body": [
+      "p22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl22{padding-left:22px;}": {
+    "prefix": [
+      "pl22"
+    ],
+    "body": [
+      "pl22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt22{padding-top:22px;}": {
+    "prefix": [
+      "pt22"
+    ],
+    "body": [
+      "pt22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr22{padding-right:22px;}": {
+    "prefix": [
+      "pr22"
+    ],
+    "body": [
+      "pr22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb22{padding-bottom:22px;}": {
+    "prefix": [
+      "pb22"
+    ],
+    "body": [
+      "pb22"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p24{padding:24px;}": {
+    "prefix": [
+      "p24"
+    ],
+    "body": [
+      "p24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl24{padding-left:24px;}": {
+    "prefix": [
+      "pl24"
+    ],
+    "body": [
+      "pl24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt24{padding-top:24px;}": {
+    "prefix": [
+      "pt24"
+    ],
+    "body": [
+      "pt24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr24{padding-right:24px;}": {
+    "prefix": [
+      "pr24"
+    ],
+    "body": [
+      "pr24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb24{padding-bottom:24px;}": {
+    "prefix": [
+      "pb24"
+    ],
+    "body": [
+      "pb24"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p26{padding:26px;}": {
+    "prefix": [
+      "p26"
+    ],
+    "body": [
+      "p26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl26{padding-left:26px;}": {
+    "prefix": [
+      "pl26"
+    ],
+    "body": [
+      "pl26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt26{padding-top:26px;}": {
+    "prefix": [
+      "pt26"
+    ],
+    "body": [
+      "pt26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr26{padding-right:26px;}": {
+    "prefix": [
+      "pr26"
+    ],
+    "body": [
+      "pr26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb26{padding-bottom:26px;}": {
+    "prefix": [
+      "pb26"
+    ],
+    "body": [
+      "pb26"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p28{padding:28px;}": {
+    "prefix": [
+      "p28"
+    ],
+    "body": [
+      "p28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl28{padding-left:28px;}": {
+    "prefix": [
+      "pl28"
+    ],
+    "body": [
+      "pl28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt28{padding-top:28px;}": {
+    "prefix": [
+      "pt28"
+    ],
+    "body": [
+      "pt28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr28{padding-right:28px;}": {
+    "prefix": [
+      "pr28"
+    ],
+    "body": [
+      "pr28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb28{padding-bottom:28px;}": {
+    "prefix": [
+      "pb28"
+    ],
+    "body": [
+      "pb28"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p30{padding:30px;}": {
+    "prefix": [
+      "p30"
+    ],
+    "body": [
+      "p30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl30{padding-left:30px;}": {
+    "prefix": [
+      "pl30"
+    ],
+    "body": [
+      "pl30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt30{padding-top:30px;}": {
+    "prefix": [
+      "pt30"
+    ],
+    "body": [
+      "pt30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr30{padding-right:30px;}": {
+    "prefix": [
+      "pr30"
+    ],
+    "body": [
+      "pr30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb30{padding-bottom:30px;}": {
+    "prefix": [
+      "pb30"
+    ],
+    "body": [
+      "pb30"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p32{padding:32px;}": {
+    "prefix": [
+      "p32"
+    ],
+    "body": [
+      "p32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl32{padding-left:32px;}": {
+    "prefix": [
+      "pl32"
+    ],
+    "body": [
+      "pl32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt32{padding-top:32px;}": {
+    "prefix": [
+      "pt32"
+    ],
+    "body": [
+      "pt32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr32{padding-right:32px;}": {
+    "prefix": [
+      "pr32"
+    ],
+    "body": [
+      "pr32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb32{padding-bottom:32px;}": {
+    "prefix": [
+      "pb32"
+    ],
+    "body": [
+      "pb32"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p34{padding:34px;}": {
+    "prefix": [
+      "p34"
+    ],
+    "body": [
+      "p34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl34{padding-left:34px;}": {
+    "prefix": [
+      "pl34"
+    ],
+    "body": [
+      "pl34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt34{padding-top:34px;}": {
+    "prefix": [
+      "pt34"
+    ],
+    "body": [
+      "pt34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr34{padding-right:34px;}": {
+    "prefix": [
+      "pr34"
+    ],
+    "body": [
+      "pr34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb34{padding-bottom:34px;}": {
+    "prefix": [
+      "pb34"
+    ],
+    "body": [
+      "pb34"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p36{padding:36px;}": {
+    "prefix": [
+      "p36"
+    ],
+    "body": [
+      "p36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl36{padding-left:36px;}": {
+    "prefix": [
+      "pl36"
+    ],
+    "body": [
+      "pl36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt36{padding-top:36px;}": {
+    "prefix": [
+      "pt36"
+    ],
+    "body": [
+      "pt36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr36{padding-right:36px;}": {
+    "prefix": [
+      "pr36"
+    ],
+    "body": [
+      "pr36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb36{padding-bottom:36px;}": {
+    "prefix": [
+      "pb36"
+    ],
+    "body": [
+      "pb36"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p38{padding:38px;}": {
+    "prefix": [
+      "p38"
+    ],
+    "body": [
+      "p38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl38{padding-left:38px;}": {
+    "prefix": [
+      "pl38"
+    ],
+    "body": [
+      "pl38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt38{padding-top:38px;}": {
+    "prefix": [
+      "pt38"
+    ],
+    "body": [
+      "pt38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr38{padding-right:38px;}": {
+    "prefix": [
+      "pr38"
+    ],
+    "body": [
+      "pr38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb38{padding-bottom:38px;}": {
+    "prefix": [
+      "pb38"
+    ],
+    "body": [
+      "pb38"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".p40{padding:40px;}": {
+    "prefix": [
+      "p40"
+    ],
+    "body": [
+      "p40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pl40{padding-left:40px;}": {
+    "prefix": [
+      "pl40"
+    ],
+    "body": [
+      "pl40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pt40{padding-top:40px;}": {
+    "prefix": [
+      "pt40"
+    ],
+    "body": [
+      "pt40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pr40{padding-right:40px;}": {
+    "prefix": [
+      "pr40"
+    ],
+    "body": [
+      "pr40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  },
+  ".pb40{padding-bottom:40px;}": {
+    "prefix": [
+      "pb40"
+    ],
+    "body": [
+      "pb40"
+    ],
+    "scope": "typescript,typescriptreact,less"
+  }
+}
