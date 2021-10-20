@@ -1,0 +1,47 @@
+.device-container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  min-width: 360px;
+  height: 640px;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: #ebedf0 0 4px 12px;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .router-path {
+      box-sizing: border-box;
+      width: 100%;
+      margin: 10px;
+      padding: 5px 0;
+      overflow-x: scroll;
+      font-size: 13px;
+      white-space: nowrap;
+      background-color: #fff;
+    }
+  }
+
+  .device-body {
+    flex: 1;
+    padding: 20px 15px 20px;
+    overflow: auto;
+    background-color: #fff;
+  }
+}
+
+iframe {
+  width: 360px;
+  min-width: 360px;
+  height: 640px;
+  border-radius: 12px;
+  box-shadow: #ebedf0 0 4px 12px;
+}

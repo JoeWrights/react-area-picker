@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React, { useState } from 'react'
-import { Tabs } from 'react-area-picker'
+import { Tabs, Device } from 'react-area-picker'
 
 export default () => {
   const [value, setValue] = useState(1)
@@ -22,4 +22,13 @@ export default () => {
 
   return <Tabs options={opts} value={value} onChange={(val: any) => setValue(val)} />
 }
+```
+
+移动端视角
+
+```tsx
+import React from 'react'
+import Device from '../Device'
+
+export default () => <Device />
 ```
