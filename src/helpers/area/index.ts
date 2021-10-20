@@ -50,7 +50,7 @@ export const getCityListByProvince = (provinceCode: keyof IArea) => {
 }
 
 /**
- * 通过城市code获取该市的县列表
+ * 通过城市code获取该市的区县列表
  * @param cityCode string | number
  * @returns {{ code: number | string; name: string }[]}
  */
@@ -65,7 +65,7 @@ export const getCountyListByCity = (cityCode: keyof IArea) => {
 }
 
 /**
- * 通过县code获取该县的完整信息
+ * 通过区县code获取该区县的完整信息
  * @param countyCode number | string
  * @returns {{ code: string | number; name: string }}
  */
@@ -75,7 +75,7 @@ export const getCountyByCode = (countyCode: keyof IArea) => {
 }
 
 /**
- * 通过县code获取该县所在的城市信息
+ * 通过县code获取该区县所在的城市信息
  * @param countyCode number | string
  * @returns {{ code: string | number; name: string }}
  */
