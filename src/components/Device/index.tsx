@@ -16,5 +16,5 @@ export default function Device(props: any) {
     .join('')
   const path = `${window.location.origin}/react-area-picker/~demos/${componentName}-demo`
 
-  return <iframe src={path} frameBorder='0' title='demo' />
+  return <iframe className='device-frame' src={path} frameBorder='0' title='demo' />
 }
