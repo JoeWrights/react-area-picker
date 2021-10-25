@@ -12,7 +12,7 @@ Demo:
 
 ```tsx
 import React, { useState } from 'react'
-import { Tabs, Device } from 'react-area-picker'
+import { Tabs } from 'react-area-picker'
 
 export default () => {
   const [value, setValue] = useState(1)
