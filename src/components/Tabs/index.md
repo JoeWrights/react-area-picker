@@ -8,6 +8,31 @@ nav:
 
 Demo:
 
+```tsx
+import React, { useState } from 'react'
+import { Tabs } from 'react-area-picker'
+
+const { TabPane } = Tabs
+
+export default () => {
+  const [value, setValue] = useState(1)
+
+  return (
+    <Tabs value={value} onChange={(val: any) => setValue(val)}>
+      <TabPane title='标签1' value={1}>
+        <div style={{ fontSize: 14 }}>标签一</div>
+      </TabPane>
+      <TabPane title='标签2' value={2}>
+        <div style={{ fontSize: 14 }}>标签二</div>
+      </TabPane>
+      <TabPane title='标签3' value={3}>
+        <div style={{ fontSize: 14 }}>标签三</div>
+      </TabPane>
+    </Tabs>
+  )
+}
+```
+
 基础使用
 
 ```tsx
@@ -18,19 +43,19 @@ export default () => {
   const [value, setValue] = useState(1)
   const [opts] = useState([
     {
-      label: '标签一',
+      title: '标签一',
       value: 1,
       key: 'province',
       content: <div style={{ fontSize: 14 }}>标签一</div>
     },
     {
-      label: '标签二',
+      title: '标签二',
       value: 2,
       key: 'city',
       content: <div style={{ fontSize: 14 }}>标签二</div>
     },
     {
-      label: '标签三',
+      title: '标签三',
       value: 3,
       key: 'area',
       content: <div style={{ fontSize: 14 }}>标签三</div>
@@ -45,7 +70,7 @@ export default () => {
 
 ```ts
 interface ITabsOption {
-  label: string
+  title: string
   value: number | string
   key: string
   content: number | string | JSX.Element
