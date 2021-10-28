@@ -1,5 +1,17 @@
 /* eslint-disable no-param-reassign */
-import React, { useState, useMemo, useCallback, useRef, createRef, useEffect, useLayoutEffect, RefObject } from 'react'
+import React, {
+  useState,
+  useMemo,
+  useCallback,
+  useRef,
+  createRef,
+  useEffect,
+  useLayoutEffect,
+  useImperativeHandle,
+  forwardRef,
+  ForwardedRef,
+  RefObject
+} from 'react'
 import classNames from 'classnames'
 import TabPane from './TabPane'
 
@@ -15,21 +27,28 @@ interface TabOptionProps {
 }
 
 interface TabsProps {
-  value: number | string
+  /**
+   * 当前激活 tab 面板的 value
+   */
+  activeTab?: number | string
+  /**
+   * 默认激活 tab 面板的 value
+   */
+  defaultValue?: number | string
   /**
    * tabs选项配置
    */
   options?: TabOptionProps[]
   /**
-   * 当前tab底部条的背景色
+   * 当前激活 tab 面板的背景色
    */
   lineColor?: string
   /**
-   * 当前tab底部条的高度
+   * 当前激活 tab 面板的高度
    */
   lineHeight?: number
   /**
-   * 当前tab底部条的宽度
+   * 当前激活 tab 面板的宽度
    */
   lineWidth?: number
   /**
@@ -128,35 +147,44 @@ function TabsWithTabPane({
   )
 }
 
-function Tabs({
-  value,
-  options,
-  lineColor = '#2B6BFF',
-  lineHeight = 2,
-  lineWidth,
-  animated = true,
-  onChange = () => {},
-  ...rest
-}: TabsProps) {
+function Tabs(
+  {
+    activeTab,
+    defaultValue,
+    options,
+    lineColor = '#2B6BFF',
+    lineHeight = 2,
+    lineWidth,
+    animated = true,
+    onChange = () => {},
+    ...rest
+  }: TabsProps,
+  ref: ForwardedRef<{
+    changeTab: (val: string | number) => void
+  }>
+) {
   const { children: tabPaneChildren } = rest as any
 
+  const [value, setValue] = useState(() => defaultValue)
   const [tabLineStyle, setTabLineStyle] = useState({})
   const [tabDomsRefs, setTabDomRefs] = useState<RefObject<any>[]>([])
   const tabLineRef = useRef(null)
+
+  const proxyValue = useMemo(() => value || activeTab, [activeTab, value])
 
   const currOptions = useMemo(() => {
     return options?.map((item) => {
       return {
         ...item,
-        active: item.value === value,
+        active: item.value === proxyValue,
         disabled: !!item.disabled
       }
     })
-  }, [options, value])
+  }, [options, proxyValue])
 
   const [tabOptions, setTabOptions] = useState(currOptions)
 
-  const activeTabs = useMemo(() => tabOptions?.filter((item) => item.value === value), [tabOptions, value])
+  const activeTabs = useMemo(() => tabOptions?.filter((item) => item.value === proxyValue), [tabOptions, proxyValue])
 
   const tabItemClass = (item: TabOptionProps) => {
     const classList = ['item']
@@ -178,12 +206,13 @@ function Tabs({
     if (item.disabled) return
     setTabOptions((prev) => {
       return prev?.map((innerItem) => {
-        innerItem.active = innerItem.key === item.key
+        innerItem.active = innerItem.value === item.value
         return innerItem
       })
     })
 
-    if (item.value !== value) {
+    if (item.value !== proxyValue) {
+      setValue(item.value)
       onChange?.(item.value)
     }
   }
@@ -209,12 +238,30 @@ function Tabs({
   // value changed
   useLayoutEffect(() => {
     const tabPaneOpts = tabPaneChildren?.map(({ props }: any) => props)
-    const index = (tabOptions || tabPaneOpts).findIndex(({ value: val }: any) => val === value)
+    const index = (tabOptions || tabPaneOpts).findIndex(({ value: val }: any) => val === proxyValue)
     const dom = tabDomsRefs[index]?.current
     if (dom) {
       setTabLineStyle(getDomPosition(dom))
     }
-  }, [value, tabOptions, tabDomsRefs, tabPaneChildren, getDomPosition])
+  }, [proxyValue, tabOptions, tabDomsRefs, tabPaneChildren, getDomPosition])
+
+  useImperativeHandle(ref, () => ({
+    changeTab: (val: number | string) => {
+      if (val !== proxyValue) {
+        // use options
+        if (options) {
+          setTabOptions((prev) => {
+            return prev?.map((innerItem) => {
+              innerItem.active = innerItem.value === val
+              return innerItem
+            })
+          })
+        }
+        setValue(val)
+        onChange?.(val)
+      }
+    }
+  }))
 
   return (
     <div className='tabs-wrapper'>
@@ -232,7 +279,7 @@ function Tabs({
       ) : (
         <TabsWithTabPane
           tabItemClass={tabItemClass}
-          curTab={value}
+          curTab={proxyValue}
           tabLineClass={tabLineClass}
           tabDomsRefs={tabDomsRefs}
           tabLineRef={tabLineRef}
@@ -246,6 +293,4 @@ function Tabs({
   )
 }
 
-Tabs.TabPane = TabPane
-
-export default Tabs
+export default forwardRef(Tabs)
