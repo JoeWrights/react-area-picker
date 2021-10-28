@@ -183,4 +183,4 @@ interface ITabsOption {
 | -------- | -------------- | ------------------ | ------ |
 | value    | 当前激活的 tab | `number \| string` | -      |
 | title    | tab 的标题     | `string`           | -      |
-| disabled | 是否禁用       | `#2B6BFF`          |
+| disabled | 是否禁用       | `boolean`          |

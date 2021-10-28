@@ -13,7 +13,6 @@ import React, {
   RefObject
 } from 'react'
 import classNames from 'classnames'
-import TabPane from './TabPane'
 
 import './index.less'
 
