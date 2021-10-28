@@ -57,7 +57,7 @@ interface TabsProps {
   /**
    * tab改变的回调
    */
-  onChange: (val: any) => void
+  onChange?: (val: any) => void
 }
 
 function TabsWithOptions({
@@ -73,7 +73,7 @@ function TabsWithOptions({
   tabOptions?: TabOptionProps[]
   activeTabs?: TabOptionProps[]
   tabDomsRefs: RefObject<any>[]
-  tabLineRef: any
+  tabLineRef: RefObject<any>
   tabLineClass: any
   tabLineStyle: any
   tabItemClass: (val: any) => any
