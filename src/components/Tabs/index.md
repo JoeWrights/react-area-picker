@@ -125,7 +125,9 @@ export default () => {
 
 ```tsx
 import React, { useState, useRef } from 'react'
-import { Tabs, TabPane } from 'react-area-picker'
+import { Tabs } from 'react-area-picker'
+
+const { TabPane } = Tabs
 
 export default () => {
   const tabRef = useRef(null)
