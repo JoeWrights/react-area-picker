@@ -13,6 +13,7 @@ import React, {
   RefObject
 } from 'react'
 import classNames from 'classnames'
+import TabPane from './TabPane'
 
 import './index.less'
 
@@ -25,7 +26,7 @@ interface TabOptionProps {
   disabled?: boolean
 }
 
-interface TabsProps {
+export interface TabsProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   /**
    * 当前激活 tab 面板的 value
    */
@@ -292,4 +293,9 @@ function Tabs(
   )
 }
 
-export default forwardRef(Tabs)
+const ForwardTabs = forwardRef(Tabs)
+
+export type ForwardTabsType = typeof ForwardTabs & { TabPane: typeof TabPane }
+;(ForwardTabs as ForwardTabsType).TabPane = TabPane
+
+export default ForwardTabs

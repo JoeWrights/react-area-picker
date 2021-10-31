@@ -12,7 +12,9 @@ Demo:
 
 ```tsx
 import React, { useState } from 'react'
-import { Tabs, TabPane } from 'react-area-picker'
+import { Tabs } from 'react-area-picker'
+
+const { TabPane } = Tabs
 
 export default () => {
   const handleChangeTab = (val: any) => {
