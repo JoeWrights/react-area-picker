@@ -155,6 +155,50 @@ export default () => {
 }
 ```
 
+hooks 方式使用
+
+```tsx
+import React from 'react'
+import { Tabs } from 'react-area-picker'
+
+const { useTabs } = Tabs
+
+export default () => {
+  const tabRender = useTabs({
+    defaultValue: 1,
+    options: [
+      {
+        title: '标签一',
+        value: 1,
+        key: 'province',
+        content: <div style={{ fontSize: 14 }}>标签一</div>
+      },
+      {
+        title: '标签二',
+        value: 2,
+        key: 'city',
+        content: <div style={{ fontSize: 14 }}>标签二</div>
+      },
+      {
+        title: '标签三',
+        value: 3,
+        key: 'area',
+        content: <div style={{ fontSize: 14 }}>标签三</div>
+      }
+    ],
+    onChange: (val: any) => {
+      console.log(val)
+    }
+  })
+
+  return (
+    <>
+      <div>{tabRender}</div>
+    </>
+  )
+}
+```
+
 **Tabs 数据类型**
 
 ```ts
