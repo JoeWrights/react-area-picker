@@ -14,10 +14,11 @@ import React, {
 } from 'react'
 import classNames from 'classnames'
 import TabPane from './TabPane'
+import useTabs from './hooks'
 
 import './index.less'
 
-interface TabOptionProps {
+export interface TabOptionProps {
   title: string
   value: number | string
   key: string
@@ -295,7 +296,11 @@ function Tabs(
 
 const ForwardTabs = forwardRef(Tabs)
 
-export type ForwardTabsType = typeof ForwardTabs & { TabPane: typeof TabPane }
+export type ForwardTabsType = typeof ForwardTabs & {
+  TabPane: typeof TabPane
+  useTabs: (option: Omit<TabsProps, 'activeTab'>) => JSX.Element
+}
 ;(ForwardTabs as ForwardTabsType).TabPane = TabPane
+;(ForwardTabs as ForwardTabsType).useTabs = useTabs
 
 export default ForwardTabs
