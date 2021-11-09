@@ -119,6 +119,7 @@ export default () => {
 | style             | ActionSheet 内部样式 | `React.CSSProperties`  | -         |
 | needToolbarBorder | 操作栏是否需要底边框 | `boolean`              | true      |
 | disabledConfirm   | 确认按钮是否禁用     | `boolean`              | false     |
+| overlayOpacity    | 遮罩的透明度         | `number`               | 0.6       |
 | onConfirm         | 确认的回调           | `() => void`           | -         |
 | onCancel          | 取消的回调           | `() => void`           | -         |
 | onClickOverlay    | 取消遮罩层的回调     | `() => void`           | -         |

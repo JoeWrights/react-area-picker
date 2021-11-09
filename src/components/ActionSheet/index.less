@@ -1,27 +1,3 @@
-@stand-animation-enter: cubic-bezier(0.4, 0, 0.2, 1);
-
-.slide-top-enter,
-.slide-top-exit {
-  transform: translate3d(0, 100%, 0);
-}
-.slide-top-enter-active {
-  will-change: transform;
-  transition: transform 0.4s stand-animation-enter 0s, opacity 0.2s linear;
-}
-.slide-top-exit-active {
-  will-change: transform;
-  transition: transform 0.2s linear 0s;
-}
-
-.fade-enter,
-.fade-exit {
-  opacity: 0 !important;
-}
-.fade-enter-active,
-.fade-exit-active {
-  transition: opacity 0.4s;
-}
-
 .action-sheet {
   .sheet-wrapper {
     position: fixed;

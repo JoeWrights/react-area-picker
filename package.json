@@ -33,6 +33,7 @@
     ]
   },
   "dependencies": {
+    "@react-spring/web": "^9.3.0",
     "classnames": "^2.3.1",
     "react-transition-group": "^4.4.2"
   },
