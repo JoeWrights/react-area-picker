@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import { useSpring, animated } from '@react-spring/web'
 import classNames from 'classnames'
+import useActionSheet from './hooks'
 
 import './index.less'
 
@@ -116,7 +117,7 @@ function ConfirmToolbar({
   )
 }
 
-export default function ActionSheet({
+function ActionSheet({
   visible = false,
   title = '',
   renderToolbar,
@@ -239,3 +240,19 @@ export default function ActionSheet({
     </div>
   )
 }
+
+export type ActionSheetType = typeof ActionSheet & {
+  useActionSheet: (
+    opt: Omit<ActionSheetProps, 'visible'> & { children: JSX.Element }
+  ) => {
+    actionSheetRender: JSX.Element
+    hideActionSheet: () => void
+    showActionSheet: () => void
+    onCancel: () => void
+    onClickOverlay: () => void
+    onConfirm: () => void
+  }
+}
+;(ActionSheet as ActionSheetType).useActionSheet = useActionSheet
+
+export default ActionSheet

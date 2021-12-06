@@ -103,6 +103,33 @@ export default () => {
 }
 ```
 
+hooks 方式使用
+
+```tsx
+import React, { useState } from 'react'
+import { ActionSheet } from 'react-area-picker'
+
+const { useActionSheet } = ActionSheet
+
+export default () => {
+  const { actionSheetRender, showActionSheet } = useActionSheet({
+    title: '标题',
+    toolbarMode: 'simple',
+    bottomButtonMode: 'single',
+    style: { height: '60%' },
+    needBottomButton: true,
+    children: '内容'
+  })
+
+  return (
+    <>
+      <button onClick={showActionSheet}>click</button>
+      <div>{actionSheetRender}</div>
+    </>
+  )
+}
+```
+
 **ActionSheet 参数 API**
 
 | 参数              | 描述                 | 类型                   | 默认值    |
