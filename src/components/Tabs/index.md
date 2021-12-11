@@ -11,37 +11,12 @@ Demo:
 基础使用
 
 ```tsx
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { Tabs } from 'react-area-picker'
+import DemoPage from '../../demo/components/DemoPage'
+import DemoCard from '../../demo/components/DemoCard'
 
-const { TabPane } = Tabs
-
-export default () => {
-  const handleChangeTab = (val: any) => {
-    console.log(val)
-  }
-
-  return (
-    <Tabs defaultValue={1} onChange={handleChangeTab}>
-      <TabPane title='标签1' value={1}>
-        <div style={{ fontSize: 14 }}>标签一</div>
-      </TabPane>
-      <TabPane title='标签2' value={2}>
-        <div style={{ fontSize: 14 }}>标签二</div>
-      </TabPane>
-      <TabPane title='标签3' value={3}>
-        <div style={{ fontSize: 14 }}>标签三</div>
-      </TabPane>
-    </Tabs>
-  )
-}
-```
-
-通过`options`属性配置 tab 选项
-
-```tsx
-import React, { useState } from 'react'
-import { Tabs } from 'react-area-picker'
+const { TabPane, useTabs } = Tabs
 
 export default () => {
   const [opts] = useState([
@@ -65,105 +40,6 @@ export default () => {
     }
   ])
 
-  const handleChangeTab = (val: any) => {
-    console.log(val)
-  }
-
-  return <Tabs options={opts} defaultValue={1} onChange={handleChangeTab} />
-}
-```
-
-外部 dom 事件触发 tabs 切换（options 配置 tabs）
-
-```tsx
-import React, { useState, useRef } from 'react'
-import { Tabs } from 'react-area-picker'
-
-export default () => {
-  const [activeTab, setActiveTab] = useState(1)
-  const tabRef = useRef(null)
-
-  const [opts] = useState([
-    {
-      title: '标签一',
-      value: 1,
-      key: 'province',
-      content: <div style={{ fontSize: 14 }}>标签一</div>
-    },
-    {
-      title: '标签二',
-      value: 2,
-      key: 'city',
-      content: <div style={{ fontSize: 14 }}>标签二</div>
-    },
-    {
-      title: '标签三',
-      value: 3,
-      key: 'area',
-      content: <div style={{ fontSize: 14 }}>标签三</div>
-    }
-  ])
-
-  const handleChangeTab = (val: any) => {
-    setActiveTab(val)
-  }
-
-  const handleProxyChangeTab = () => {
-    tabRef.current.changeTab(3)
-  }
-
-  return (
-    <>
-      <button onClick={handleProxyChangeTab}>切换到标签三</button>
-      <Tabs ref={tabRef} options={opts} activeTab={activeTab} onChange={handleChangeTab} />
-    </>
-  )
-}
-```
-
-外部 dom 事件触发 tabs 切换
-
-```tsx
-import React, { useState, useRef } from 'react'
-import { Tabs } from 'react-area-picker'
-
-const { TabPane } = Tabs
-
-export default () => {
-  const tabRef = useRef(null)
-
-  const handleProxyChangeTab = () => {
-    tabRef.current.changeTab(2)
-  }
-
-  return (
-    <>
-      <button onClick={handleProxyChangeTab}>切换到标签2</button>
-      <Tabs defaultValue={1} ref={tabRef}>
-        <TabPane title='标签1' value={1}>
-          <div style={{ fontSize: 14 }}>标签一</div>
-        </TabPane>
-        <TabPane title='标签2' value={2}>
-          <div style={{ fontSize: 14 }}>标签二</div>
-        </TabPane>
-        <TabPane title='标签3' value={3}>
-          <div style={{ fontSize: 14 }}>标签三</div>
-        </TabPane>
-      </Tabs>
-    </>
-  )
-}
-```
-
-hooks 方式使用
-
-```tsx
-import React from 'react'
-import { Tabs } from 'react-area-picker'
-
-const { useTabs } = Tabs
-
-export default () => {
   const tabRender = useTabs({
     defaultValue: 1,
     options: [
@@ -191,10 +67,103 @@ export default () => {
     }
   })
 
+  const tabRef = useRef(null)
+
+  const [activeTab, setActiveTab] = useState(1)
+  const tabRef2 = useRef(null)
+
+  const handleProxyChangeTab = () => {
+    tabRef.current.changeTab(2)
+  }
+
+  const handleProxyChangeTab2 = () => {
+    tabRef2.current.changeTab(3)
+  }
+
+  const handleChangeTab = (val: any) => {
+    console.log(val)
+  }
+
+  const handleChangeTab2 = (val: any) => {
+    console.log(val)
+  }
+
+  const handleChangeTab3 = (val: any) => {
+    setActiveTab(val)
+  }
+
   return (
-    <>
-      <div>{tabRender}</div>
-    </>
+    <DemoPage title='Tabs'>
+      <DemoCard title='基础使用'>
+        <Tabs defaultValue={1} onChange={handleChangeTab}>
+          <TabPane title='标签1' value={1}>
+            <div style={{ fontSize: 14 }}>标签一</div>
+          </TabPane>
+          <TabPane title='标签2' value={2}>
+            <div style={{ fontSize: 14 }}>标签二</div>
+          </TabPane>
+          <TabPane title='标签3' value={3}>
+            <div style={{ fontSize: 14 }}>标签三</div>
+          </TabPane>
+        </Tabs>
+      </DemoCard>
+
+      <DemoCard title='通过options属性配置 tab 选项'>
+        <Tabs options={opts} defaultValue={1} onChange={handleChangeTab2} />
+      </DemoCard>
+
+      <DemoCard title='外部 dom 事件触发 tabs 切换'>
+        <>
+          <button
+            onClick={handleProxyChangeTab}
+            style={{
+              appearance: 'none',
+              border: 'none',
+              outline: 'none',
+              borderRadius: '2px',
+              padding: '4px',
+              marginBottom: '10px'
+            }}
+          >
+            切换到标签2
+          </button>
+          <Tabs defaultValue={1} ref={tabRef}>
+            <TabPane title='标签1' value={1}>
+              <div style={{ fontSize: 14 }}>标签一</div>
+            </TabPane>
+            <TabPane title='标签2' value={2}>
+              <div style={{ fontSize: 14 }}>标签二</div>
+            </TabPane>
+            <TabPane title='标签3' value={3}>
+              <div style={{ fontSize: 14 }}>标签三</div>
+            </TabPane>
+          </Tabs>
+        </>
+      </DemoCard>
+
+      <DemoCard title='外部 dom 事件触发 tabs 切换（options 配置 tabs）'>
+        <>
+          <button
+            onClick={handleProxyChangeTab2}
+            style={{
+              appearance: 'none',
+              border: 'none',
+              outline: 'none',
+              borderRadius: '2px',
+              padding: '4px',
+              marginBottom: '10px'
+            }}
+          >
+            切换到标签三
+          </button>
+          <Tabs ref={tabRef2} options={opts} activeTab={activeTab} onChange={handleChangeTab3} />
+        </>
+      </DemoCard>
+
+      <DemoCard title='hooks 方式使用'>
+        <div>{tabRender}</div>
+      </DemoCard>
+    </DemoPage>
   )
 }
 ```

@@ -39,6 +39,10 @@ export interface ActionSheetProps {
    */
   cancelText?: string
   /**
+   * 取消的icon
+   */
+  cancelIcon?: JSX.Element | string
+  /**
    * 确认的文案
    */
   confirmText?: string
@@ -72,12 +76,20 @@ export interface ActionSheetProps {
   onClickOverlay?: () => void
 }
 
-function SimpleToolbar({ title, onCancel }: { title: string; onCancel: () => void }) {
+function SimpleToolbar({
+  title,
+  onCancel,
+  cancelIcon
+}: {
+  title: string
+  cancelIcon?: JSX.Element | string
+  onCancel: () => void
+}) {
   return (
     <div className='simple'>
       <div className='title'>{title}</div>
       <div className='cancel-pla' onClick={onCancel}>
-        X
+        {cancelIcon}
       </div>
     </div>
   )
@@ -127,6 +139,7 @@ function ActionSheet({
   needBottomButton = false,
   cancelText = '取消',
   confirmText = '确认',
+  cancelIcon = 'X',
   style,
   needToolbarBorder = true,
   disabledConfirm = false,
@@ -195,7 +208,7 @@ function ActionSheet({
           ) : (
             <div className='default-bar'>
               {toolbarMode === 'simple' ? (
-                <SimpleToolbar title={title} onCancel={onCancel} />
+                <SimpleToolbar title={title} cancelIcon={cancelIcon} onCancel={onCancel} />
               ) : (
                 <ConfirmToolbar
                   title={title}
