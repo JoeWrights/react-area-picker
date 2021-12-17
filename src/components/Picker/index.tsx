@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef } from 'react'
+import React, { useState, useMemo, useRef, useImperativeHandle, forwardRef, ForwardedRef } from 'react'
 import classNames from 'classnames'
 import useMount from '@/hooks/useMount'
 import useUpdateEffect from '@/hooks/useUpdateEffect'
@@ -16,7 +16,7 @@ import './index.less'
 
 const { TabPane } = Tabs as any
 
-interface IAreaItem {
+export interface IAreaItem {
   name: string
   code: number | string
 }
@@ -31,7 +31,7 @@ interface PickerProps {
   style?: React.CSSProperties
   selectedIcon?: JSX.Element | string
   lastCode?: number
-  onChangeColumn?: (val: IAreaItem) => void
+  onChangeColumn?: (data: IAreaItem, val: 'province' | 'city' | 'county') => void
   onFinish?: (val: IAreaItem[]) => void
 }
 
@@ -68,13 +68,10 @@ function SelectedIcon({ className }: { className?: string }) {
   )
 }
 
-export default function Picker({
-  style,
-  selectedIcon,
-  lastCode,
-  onChangeColumn = () => {},
-  onFinish = () => {}
-}: PickerProps) {
+function Picker(
+  { style, selectedIcon, lastCode, onChangeColumn = () => {}, onFinish = () => {} }: PickerProps,
+  ref: ForwardedRef<any>
+) {
   const [tabs, setTabs] = useState<ITabs[]>([{ title: '请选择', value: 'province', index: 0 }])
 
   const [activeTab, setActiveTab] = useState<'province' | 'city' | 'county'>('province')
@@ -131,7 +128,7 @@ export default function Picker({
 
     setSelectedVal(curSelected)
 
-    onChangeColumn?.(item)
+    onChangeColumn?.(item, value)
 
     // if nextColumn's list not empty
     if (list.length > 0) {
@@ -214,6 +211,10 @@ export default function Picker({
     ;(tabRef.current as any).changeTab(areaMap[curSelectedVal.length - 1])
   }
 
+  useImperativeHandle(ref, () => ({
+    selectedVal
+  }))
+
   useMount(() => {
     matchAreaByLastCode()
   })
@@ -241,3 +242,5 @@ export default function Picker({
     </div>
   )
 }
+
+export default forwardRef(Picker)
