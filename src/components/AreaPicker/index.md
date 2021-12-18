@@ -30,16 +30,19 @@ export default () => {
   const handleConfirm = (data: any) => {
     setData1(data)
     setLastCode(data?.[2]?.code)
+    setVisible(false)
   }
 
   const handleConfirm2 = (data: any) => {
     setData2(data)
     setLastCode2(data?.[2]?.code)
+    setVisible2(false)
   }
 
   const handleConfirm3 = (data: any) => {
     setData3(data)
-    setLastCode(data?.[2]?.code)
+    setLastCode3(data?.[2]?.code)
+    setVisible3(false)
   }
 
   return (
@@ -74,7 +77,7 @@ export default () => {
 
       <DemoCard title='默认选中' onClick={() => setVisible3(true)}>
         <>
-          默认选中
+          {data3.length ? data3.map(({ name }) => name).join('/') : '选择地址'}
           <AreaPicker
             visible={visible3}
             style={{ height: '60%' }}

@@ -4,7 +4,6 @@ import Picker, { IAreaItem } from '../Picker'
 import useUpdateEffect from '@/hooks/useUpdateEffect'
 
 interface AreaPickerProps extends Omit<ActionSheetProps, 'title'> {
-  visible: boolean
   title?: string
   lastCode?: number
   selectedIcon?: JSX.Element | string
@@ -23,7 +22,6 @@ export default function AreaPicker({
   onCancel = () => {},
   ...restProps
 }: AreaPickerProps) {
-  const [pickerVisible, setPickerVisible] = useState<boolean>(visible)
   const [disabledConfirm, setDisabledConfirm] = useState<boolean>(true)
   const [isFinish, setIsFinish] = useState<boolean>(false)
   const [selectedVal, setSelectedVal] = useState<IAreaItem[]>([])
@@ -32,11 +30,9 @@ export default function AreaPicker({
 
   const handleConfirmPicker = () => {
     onConfirm?.(selectedVal)
-    setPickerVisible(false)
   }
 
   const handleCancelPicker = () => {
-    setPickerVisible(false)
     onCancel?.()
     setSelectedVal([])
   }
@@ -45,7 +41,6 @@ export default function AreaPicker({
     setIsFinish(true)
     if (autoConfirm) {
       onConfirm?.(data)
-      setPickerVisible(false)
     }
   }
 
@@ -68,28 +63,21 @@ export default function AreaPicker({
   }, [selectedVal])
 
   useUpdateEffect(() => {
-    if (!pickerVisible) {
-      onCancel?.()
-      if (!isFinish) {
-        setSelectedVal([])
-      }
+    if (!visible && !isFinish) {
+      setSelectedVal([])
     }
 
-    if (pickerVisible && lastCode) {
+    if (visible && lastCode) {
       setTimeout(() => {
         const curPickerSelected = (pickerRef.current as any)?.selectedVal
         setSelectedVal(curPickerSelected)
       }, 0)
     }
-  }, [pickerVisible])
-
-  useUpdateEffect(() => {
-    setPickerVisible(visible)
   }, [visible])
 
   return (
     <ActionSheet
-      visible={pickerVisible}
+      visible={visible}
       title={title}
       style={style}
       {...restProps}
@@ -98,7 +86,7 @@ export default function AreaPicker({
       onCancel={handleCancelPicker}
       onClickOverlay={handleCancelPicker}
     >
-      {pickerVisible ? (
+      {visible ? (
         <Picker
           ref={pickerRef}
           lastCode={lastCode}
