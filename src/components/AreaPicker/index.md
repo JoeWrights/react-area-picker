@@ -94,9 +94,11 @@ export default () => {
 
 **AreaPicker 参数 API**
 
+参数继承于`ActionSheetProps`，[详见](../ActionSheet/index.md)
+
 | 参数           | 描述             | 类型                         | 默认值 |
 | -------------- | ---------------- | ---------------------------- | ------ |
 | style          | picker 的样式    | `React.CSSProperties`        | -      |
-| selectedIcon   | 选中的 icon      | `string \| JSX.Element`      | -      |
+| selectedIcon   | 选中的 icon      | `string \| React.ReactNode`  | -      |
 | onChangeColumn | 选中省市区的回调 | `(val: IAreaItem) => void`   | -      |
 | onFinish       | 取消的回调       | `(val: IAreaItem[]) => void` | -      |

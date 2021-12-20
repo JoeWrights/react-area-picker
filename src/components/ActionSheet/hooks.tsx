@@ -18,7 +18,7 @@ export default function useActionSheet({
   onCancel = () => {},
   onClickOverlay = () => {},
   onConfirm = () => {}
-}: Omit<ActionSheetProps, 'visible'> & { children: JSX.Element }) {
+}: Omit<ActionSheetProps, 'visible'> & { children: React.ReactNode }) {
   const [visible, setVisible] = useState<boolean>(false)
 
   const showActionSheet = () => {

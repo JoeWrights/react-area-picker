@@ -6,7 +6,7 @@ import useUpdateEffect from '@/hooks/useUpdateEffect'
 interface AreaPickerProps extends Omit<ActionSheetProps, 'title'> {
   title?: string
   lastCode?: number
-  selectedIcon?: JSX.Element | string
+  selectedIcon?: React.ReactNode | string
   style?: React.CSSProperties
   autoConfirm?: boolean
 }

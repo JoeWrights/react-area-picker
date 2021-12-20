@@ -5,7 +5,7 @@ export default function DemoCard({
   title,
   onClick = () => {},
   ...rest
-}: { title: string; onClick?: () => void } & { children: JSX.Element }) {
+}: { title: string; onClick?: () => void } & { children: React.ReactNode }) {
   const { children } = rest
 
   return (

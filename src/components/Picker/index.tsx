@@ -29,7 +29,7 @@ interface ITabs {
 
 interface PickerProps {
   style?: React.CSSProperties
-  selectedIcon?: JSX.Element | string
+  selectedIcon?: React.ReactNode | string
   lastCode?: number
   onChangeColumn?: (data: IAreaItem, val: 'province' | 'city' | 'county') => void
   onFinish?: (val: IAreaItem[]) => void

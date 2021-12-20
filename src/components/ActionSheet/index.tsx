@@ -22,11 +22,11 @@ export interface ActionSheetProps {
   /**
    * 自定义操作栏
    */
-  renderToolbar?: JSX.Element
+  renderToolbar?: React.ReactNode
   /**
    * 自定义footer
    */
-  renderFooter?: JSX.Element
+  renderFooter?: React.ReactNode
   /**
    * 底部按钮的风格
    */
@@ -42,7 +42,7 @@ export interface ActionSheetProps {
   /**
    * 取消的icon
    */
-  cancelIcon?: JSX.Element | string
+  cancelIcon?: React.ReactNode | string
   /**
    * 确认的文案
    */
@@ -96,7 +96,7 @@ function ActionSheet({
   onCancel = () => {},
   onClickOverlay = () => {},
   ...rest
-}: ActionSheetProps & { children: JSX.Element }) {
+}: ActionSheetProps & { children: React.ReactNode }) {
   const { children } = rest
   const [active, setActive] = useState(visible)
 
@@ -251,9 +251,9 @@ function ActionSheet({
 
 export type ActionSheetType = typeof ActionSheet & {
   useActionSheet: (
-    opt: Omit<ActionSheetProps, 'visible'> & { children: JSX.Element }
+    opt: Omit<ActionSheetProps, 'visible'> & { children: React.ReactNode }
   ) => {
-    actionSheetRender: JSX.Element
+    actionSheetRender: React.ReactNode
     hideActionSheet: () => void
     showActionSheet: () => void
     onCancel: () => void
