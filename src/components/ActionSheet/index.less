@@ -1,18 +1,18 @@
 .action-sheet {
   .sheet-wrapper {
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    min-height: 10%;
-    max-height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
     z-index: 999;
-    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10%;
+    max-height: 100%;
+    margin: 0 auto;
     background-color: #fff;
+    border-radius: 8px 8px 0 0;
   }
 
   .toolbar {
@@ -26,14 +26,14 @@
 
       .title {
         color: #333;
-        font-size: 16px;
         font-weight: 500;
+        font-size: 16px;
       }
 
       .cancel-pla {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         color: #969799;
 
         .close-icon {
@@ -44,7 +44,7 @@
       }
 
       .confirm-pla {
-        color: #576b95;
+        color: #2b6bff;
 
         &.disabled {
           color: #969799;
@@ -54,8 +54,8 @@
       .simple,
       .confirm {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
         height: 44px;
       }
 
@@ -74,41 +74,41 @@
   }
 
   .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     display: flex;
     align-items: center;
     margin: 10px 16px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
 
     .bottom-button {
-      flex: 1;
       display: flex;
-      justify-content: space-between;
+      flex: 1;
       align-items: center;
-      font-size: 16px;
+      justify-content: space-between;
       font-weight: 500;
+      font-size: 16px;
 
       .cancel-btn {
         display: flex;
-        justify-content: center;
         align-items: center;
-        border: 1px solid #ccc;
+        justify-content: center;
         width: 140px;
         height: 48px;
+        border: 1px solid #ccc;
         border-radius: 8px;
       }
 
       .confirm-btn {
-        flex: 1;
         display: flex;
-        justify-content: center;
+        flex: 1;
         align-items: center;
+        justify-content: center;
         height: 48px;
-        border-radius: 8px;
-        background-color: #2b6bff;
         color: #fff;
+        background-color: #2b6bff;
+        border-radius: 8px;
 
         &.disabled {
           background-color: #969799;
@@ -123,14 +123,14 @@
 
   .mask {
     position: fixed;
-    left: 0;
-    right: 0;
     top: 0;
+    right: 0;
     bottom: 0;
+    left: 0;
+    z-index: 998;
     width: 100%;
     height: 100%;
     background-color: #000;
     opacity: 0.6;
-    z-index: 998;
   }
 }

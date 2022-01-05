@@ -7,7 +7,7 @@ interface TabPaneProps {
 }
 
 export default function TabPane(props: TabPaneProps) {
-  const { children } = props as TabPaneProps & { children?: JSX.Element }
+  const { children } = props as TabPaneProps & { children?: React.ReactNode }
 
   return <div>{children}</div>
 }

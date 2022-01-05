@@ -1,0 +1,39 @@
+.area-picker {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  user-select: none;
+
+  &-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 36px;
+      color: #333;
+      font-size: 14px;
+
+      &:first-child {
+        margin-top: 16px;
+      }
+
+      .name {
+        &.active {
+          color: #2b6bff;
+        }
+      }
+
+      .ok-icon {
+        width: 18px;
+        height: 18px;
+        color: #2b6bff;
+      }
+    }
+  }
+}

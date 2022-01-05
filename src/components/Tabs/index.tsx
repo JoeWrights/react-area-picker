@@ -22,7 +22,7 @@ export interface TabOptionProps {
   title: string
   value: number | string
   key: string
-  content: number | string | JSX.Element
+  content: number | string | React.ReactNode
   active?: boolean
   disabled?: boolean
 }
@@ -298,7 +298,7 @@ const ForwardTabs = forwardRef(Tabs)
 
 export type ForwardTabsType = typeof ForwardTabs & {
   TabPane: typeof TabPane
-  useTabs: (option: Omit<TabsProps, 'activeTab'>) => JSX.Element
+  useTabs: (option: Omit<TabsProps, 'activeTab'>) => React.ReactNode
 }
 ;(ForwardTabs as ForwardTabsType).TabPane = TabPane
 ;(ForwardTabs as ForwardTabsType).useTabs = useTabs

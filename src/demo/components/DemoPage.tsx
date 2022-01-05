@@ -1,7 +1,7 @@
 import React from 'react'
 import './demo-page.less'
 
-export default function DemoPage({ title, ...rest }: { title: string } & { children: JSX.Element }) {
+export default function DemoPage({ title, ...rest }: { title: string } & { children: React.ReactNode }) {
   const { children } = rest
 
   return (

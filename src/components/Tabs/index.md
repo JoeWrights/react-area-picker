@@ -175,7 +175,7 @@ interface ITabsOption {
   title: string
   value: number | string
   key: string
-  content: number | string | JSX.Element
+  content: number | string | React.ReactNode
   active?: boolean
   disabled?: boolean
 }
