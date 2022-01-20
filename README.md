@@ -52,4 +52,4 @@ export default () => {
 
 手机扫描二维码
 
-![qrcode](demo/assets/qrcode.png)
+![qrcode](src/demo/assets/qrcode.png)
