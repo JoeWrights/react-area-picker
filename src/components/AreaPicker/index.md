@@ -94,7 +94,7 @@ export default () => {
 
 **AreaPicker 参数 API**
 
-参数继承于`ActionSheetProps`，[详见](../ActionSheet/index.md)
+参数继承于`ActionSheetProps`，[详见](https://joewrights.github.io/react-area-picker/components/action-sheet)
 
 | 参数           | 描述             | 类型                         | 默认值 |
 | -------------- | ---------------- | ---------------------------- | ------ |
